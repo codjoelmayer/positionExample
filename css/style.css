@@ -36,3 +36,10 @@ When an element is positioned relatively, it is positioned relative to its norma
     border: 2px solid;
     padding-inline: 12px;
 }
+/* Position sticky: */
+#box2 {
+    position: sticky;
+    top: 0;
+    border: 2px dotted greenyellow;
+    background-color: rgb(31, 31, 32, .8);
+}
