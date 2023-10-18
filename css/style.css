@@ -43,3 +43,16 @@ When an element is positioned relatively, it is positioned relative to its norma
     border: 2px dotted greenyellow;
     background-color: rgb(31, 31, 32, .8);
 }
+/* Position absolute */
+#box3 {
+    position: relative;
+    border: 2px dotted rgb(37, 44, 27);
+    background-color: rgb(31, 31, 32, .8);
+}
+#posAbsolute {
+    position: absolute;  
+    right: 0;
+    background-color: rgba(148, 226, 165, 0.8);
+    /* To place the box-shadow inside the box, use the 'inset' value. */
+    box-shadow: inset 1vw .3vw 1vw green;
+}
